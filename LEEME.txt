@@ -1,0 +1,3 @@
+Para ejecutar el simulador en RViz se debe ejecutar el comando:
+
+- ros2 launch arm_description view_arm.launch.py
