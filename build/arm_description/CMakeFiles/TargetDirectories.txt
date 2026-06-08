@@ -1,9 +1,0 @@
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/uninstall.dir
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/arm_description_uninstall.dir
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/test.dir
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/edit_cache.dir
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/rebuild_cache.dir
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/list_install_components.dir
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/install.dir
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/install/local.dir
-/home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description/CMakeFiles/install/strip.dir
