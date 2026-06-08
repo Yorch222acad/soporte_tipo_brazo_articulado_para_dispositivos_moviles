@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<robot name="simple_arm">
+  <!-- Base Link -->
+  <link name="base_link">
+    <visual>
+      <geometry>
+        <cylinder length="0.1" radius="0.1"/>
+      </geometry>
+      <material name="gray"><color rgba="0.5 0.5 0.5 1"/></material>
+    </visual>
+  </link>
+
+  <!-- Link 1 (q1 z-rotation) -->
+  <link name="link1">
+    <visual>
+      <!-- Cylinder matching d=2.2 offset -->
+      <origin xyz="0 0 1.1" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="2.2" radius="0.5"/>
+      </geometry>
+      <material name="blue"><color rgba="0 0 0.8 1"/></material>
+    </visual>
+  </link>
+
+  <joint name="q1" type="revolute">
+    <parent link="base_link"/>
+    <child link="link1"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 2 (q2 z-rotation, offset by d=2.2 and alpha=pi/2) -->
+  <link name="link2">
+    <visual>
+      <!-- Cylinder matching a=29.6 offset in X -->
+      <origin xyz="14.8 0 0" rpy="0 1.5708 0"/>
+      <geometry>
+        <cylinder length="29.6" radius="0.5"/>
+      </geometry>
+      <material name="red"><color rgba="0.8 0 0 1"/></material>
+    </visual>
+  </link>
+
+  <joint name="q2" type="revolute">
+    <parent link="link1"/>
+    <child link="link2"/>
+    <origin xyz="0 0 2.2" rpy="1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 3 (q3 z-rotation, offset by a=29.6 and alpha=pi/2) -->
+  <link name="link3">
+    <visual>
+      <!-- Cylinder matching d=3.0 offset in Z -->
+      <origin xyz="0 0 1.5" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="3.0" radius="0.4"/>
+      </geometry>
+      <material name="green"><color rgba="0 0.8 0 1"/></material>
+    </visual>
+  </link>
+
+  <joint name="q3" type="revolute">
+    <parent link="link2"/>
+    <child link="link3"/>
+    <origin xyz="29.6 0 0" rpy="1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 4 (q4 z-rotation, offset by d=3.0 and alpha=-pi/2) -->
+  <link name="link4">
+    <visual>
+      <!-- Cylinder matching a=30.0 offset in X -->
+      <origin xyz="15.0 0 0" rpy="0 1.5708 0"/>
+      <geometry>
+        <cylinder length="30.0" radius="0.3"/>
+      </geometry>
+      <material name="yellow"><color rgba="0.8 0.8 0 1"/></material>
+    </visual>
+  </link>
+
+  <joint name="q4" type="revolute">
+    <parent link="link3"/>
+    <child link="link4"/>
+    <origin xyz="0 0 3.0" rpy="-1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 5 (q5 z-rotation, offset by a=30.0 and alpha=-pi/2) -->
+  <link name="link5">
+    <visual>
+      <!-- Cylinder matching d=2.0 offset in Z -->
+      <origin xyz="0 0 1.0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="2.0" radius="0.2"/>
+      </geometry>
+      <material name="purple"><color rgba="0.8 0 0.8 1"/></material>
+    </visual>
+  </link>
+
+  <joint name="q5" type="revolute">
+    <parent link="link4"/>
+    <child link="link5"/>
+    <origin xyz="30.0 0 0" rpy="-1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="100" velocity="1.0"/>
+  </joint>
+
+  <!-- Link 6 (q6 z-rotation, offset by d=2.0 and alpha=pi/2) -->
+  <link name="link6">
+    <visual>
+      <!-- End effector extending a6=2 along X axis -->
+      <origin xyz="1.0 0 0" rpy="0 1.5708 0"/>
+      <geometry>
+        <cylinder length="2.0" radius="0.1"/>
+      </geometry>
+      <material name="cyan"><color rgba="0 0.8 0.8 1"/></material>
+    </visual>
+  </link>
+
+  <joint name="q6" type="revolute">
+    <parent link="link5"/>
+    <child link="link6"/>
+    <origin xyz="0 0 2.0" rpy="1.5708 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="-3.1416" upper="3.1416" effort="100" velocity="1.0"/>
+  </joint>
+
+</robot>

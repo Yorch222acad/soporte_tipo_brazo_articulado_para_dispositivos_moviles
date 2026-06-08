@@ -1,0 +1,39 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Configuring done (0.8s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/build/arm_description
+-- Install configuration: ""
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/launch
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/launch/view_arm.launch.py
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/urdf
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/urdf/urdf.xml
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/rviz
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/rviz/arm.rviz
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/ament_index/resource_index/package_run_dependencies/arm_description
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/ament_index/resource_index/parent_prefix_path/arm_description
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/environment/ament_prefix_path.sh
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/environment/ament_prefix_path.dsv
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/environment/path.sh
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/environment/path.dsv
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/local_setup.bash
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/local_setup.sh
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/local_setup.zsh
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/local_setup.dsv
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/package.dsv
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/ament_index/resource_index/packages/arm_description
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/cmake/arm_descriptionConfig.cmake
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/cmake/arm_descriptionConfig-version.cmake
+-- Installing: /home/yorch/Documentos/archivos_de_programas/robotica/robotic_arm_cell_holder/install/arm_description/share/arm_description/package.xml
